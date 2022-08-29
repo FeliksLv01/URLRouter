@@ -1,0 +1,24 @@
+{
+  "name": "URLRouter",
+  "version": "0.0.1",
+  "summary": "URLRouter",
+  "description": "URLRouter",
+  "homepage": "https://github.com/felikslv01/URLRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "felikslv": "felikslv@163.com"
+  },
+  "source": {
+    "git": "https://github.com/felikslv01/URLRouter.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "URLRouter/Classes/**/*",
+  "public_header_files": "URLRouter/Classes/URLRouter.h",
+  "frameworks": "UIKit"
+}
