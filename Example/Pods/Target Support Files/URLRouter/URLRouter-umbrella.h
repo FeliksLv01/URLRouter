@@ -11,6 +11,8 @@
 #endif
 
 #import "URLRouter.h"
+#import "URLRouterNavigatorDelegate.h"
+#import "URLRouterViewControllerProtocol.h"
 
 FOUNDATION_EXPORT double URLRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char URLRouterVersionString[];

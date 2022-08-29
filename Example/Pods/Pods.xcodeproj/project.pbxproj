@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0BCAACE564AB9B263D5FF42013E91EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		168522DB4726877A3E29F23C36F2ABD5 /* Pods-URLRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC06FD77B10B9C534C458C5C83F63E7 /* Pods-URLRouter_Example-dummy.m */; };
+		1E178BE9401359F5DA7733BFCA212F7B /* URLRouterNavigatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D68E7AD798279EA5D766E96B85B4A9 /* URLRouterNavigatorDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26FC3820AF58041F1A6898CEA3A521E2 /* URLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A684FA89C017E6BF154F03E788E1D38B /* URLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36542A62F239DA31BD284E57E5EC3C82 /* URLRouterViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A0375AE2A86C83FEDFCBECFBB4CF8C /* URLRouterViewControllerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A7C6F8C2DE7FE193630AF7E0CD4A5D9 /* Pods-URLRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BF9975B08375175DF5C31A0FBF1121 /* Pods-URLRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5457C31756972AE9AA2CC4CDC16E7C18 /* Pods-URLRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 312337452868D2AAE4660D7F26B24C7E /* Pods-URLRouter_Tests-dummy.m */; };
 		56E72D28ABA4CCF858EEC98529EAD5E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A08D73A56CE454C10253736163CA5426 /* URLRouterViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A0375AE2A86C83FEDFCBECFBB4CF8C /* URLRouterViewControllerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A4B56BF143B095615D65BBBCF45C6037 /* URLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C3A8FAF798CA988FF00AD9E0AFB0D7 /* URLRouter-dummy.m */; };
 		AC30C4DF592F0839341867286767EA58 /* URLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E4892034CAD6829333D696F0086C1B /* URLRouter.m */; };
-		BC1E82CF685DBF0242940987DEA4D619 /* URLRouterNavigatorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D68E7AD798279EA5D766E96B85B4A9 /* URLRouterNavigatorDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CD17A7F44B57FBE8E6A572E1B8580DF1 /* URLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5D7E98F1ACE9E19B64D1FE864D81B0 /* URLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE4C31073CCAD3452561B147C0AFC997 /* Pods-URLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B178BF753060FB11145D53EB21A017 /* Pods-URLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3127F6CDBB5F29214E43AEC460A315F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -253,8 +253,8 @@
 			files = (
 				CD17A7F44B57FBE8E6A572E1B8580DF1 /* URLRouter.h in Headers */,
 				26FC3820AF58041F1A6898CEA3A521E2 /* URLRouter-umbrella.h in Headers */,
-				BC1E82CF685DBF0242940987DEA4D619 /* URLRouterNavigatorDelegate.h in Headers */,
-				A08D73A56CE454C10253736163CA5426 /* URLRouterViewControllerProtocol.h in Headers */,
+				1E178BE9401359F5DA7733BFCA212F7B /* URLRouterNavigatorDelegate.h in Headers */,
+				36542A62F239DA31BD284E57E5EC3C82 /* URLRouterViewControllerProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

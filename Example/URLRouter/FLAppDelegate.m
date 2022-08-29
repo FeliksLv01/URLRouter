@@ -7,11 +7,13 @@
 //
 
 #import "FLAppDelegate.h"
+#import <URLRouter/URLRouter.h>
 
 @implementation FLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [URLRouter.defaultRouter registerRouter:@"/home" forClass:NSClassFromString(@"FLViewController")];
     // Override point for customization after application launch.
     return YES;
 }

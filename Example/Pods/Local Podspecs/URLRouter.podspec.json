@@ -19,6 +19,5 @@
     "ios": "11.0"
   },
   "source_files": "URLRouter/Classes/**/*",
-  "public_header_files": "URLRouter/Classes/URLRouter.h",
   "frameworks": "UIKit"
 }
