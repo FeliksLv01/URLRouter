@@ -15,6 +15,5 @@ URLRouter
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'URLRouter/Classes/**/*'
-  s.public_header_files = 'URLRouter/Classes/URLRouter.h'
   s.frameworks = 'UIKit'
 end
